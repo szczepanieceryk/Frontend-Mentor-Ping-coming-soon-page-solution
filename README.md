@@ -6,7 +6,6 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -26,13 +25,10 @@ Users should be able to:
   - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
 
-### Screenshot
-
-![](images/Screenshot 2022-02-02 at 16-10-14 Frontend Mentor Ping coming soon page.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [click here](https://szczepanieceryk.github.io/Frontend-Mentor-Ping-coming-soon-page-solution/)
 
 ## My process
 
