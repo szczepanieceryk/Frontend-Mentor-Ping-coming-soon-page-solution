@@ -1,0 +1,132 @@
+/* custom CSS varaibles */
+:root{
+/* fonts */
+--font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+--font-size: 20px;
+--bold:700;
+--normal:300;
+/* colors */
+/* ### Primary */
+--blue: hsl(223, 87%, 63%);
+/* ### Secondary */
+--pale-blue: hsl(223, 100%, 88%);
+--light-red: hsl(354, 100%, 66%);
+/* ### Neutral */
+--gray: hsl(0, 0%, 59%);
+--white:hsl(0, 0%, 100%);
+--very-dark-blue: hsl(209, 33%, 12%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+img{
+    margin: 2em auto;
+    display: block;
+}
+.app-wrapper{
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    max-width: 1000px;
+    min-height: 100vh;
+    color: var(--gray);
+}
+
+/* header section */
+h2{
+    margin: .5em auto;
+    font-weight: var(--normal);
+}
+h2 > span {
+    color: var(--very-dark-blue);
+    font-weight: var(--bold);
+}
+.header > small {
+    font-size: 15px;
+}
+
+/* form */
+form{
+    margin: 2em auto;
+}
+form > span {
+    margin: 0 auto;
+    display: block;
+    font-size: 12px;
+    color: var(--light-red);
+}
+input,button{
+    margin: 1em auto;
+    padding: 1em;
+    width: 70%;
+    border-radius: 50px;
+}
+input{
+    border: 1px solid  var(--pale-blue);
+}
+input.invalid{
+    border: 2px solid var(--light-red);
+}
+button{
+    border: none;
+    color: var(--white);
+    background-color: var(--blue);
+    box-shadow: 0px 2px 5px 2px var(--pale-blue);
+    transition: .3s;
+    cursor: pointer;
+}
+button:hover{
+    opacity: .7;
+}
+
+/* main section */
+.main > img {
+    width: 100%;
+    max-width: 650px;
+}
+
+/* footer */
+ion-icon {
+    margin: 1em .2em;
+    padding: .5em;
+    border-radius: 50px;
+    color: var(--blue);
+    border: 1px solid var(--pale-blue);
+    cursor: pointer;
+    transition: .5s;
+}
+ion-icon:hover{
+    color: var(--white);
+    background-color: var(--blue);
+}
+footer > span {
+    font-size: 12px;
+}
+
+/* attributions */
+footer > p{ margin:1em auto;font-size: 11px; text-align: center; }
+footer > a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width:1025px){
+    img{
+        margin: 1em auto;
+    }
+    input {
+        margin-right: .5em;
+        width: 40%;
+        display: inline;
+    }
+    button {
+        width: 20%;
+        display: inline-block;
+    }
+    ion-icon{
+        margin: 0em .2em;
+    }
+}
